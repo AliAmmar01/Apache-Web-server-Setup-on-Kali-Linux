@@ -1,10 +1,16 @@
+html>
+<head>
+<style>
+div {text-align: center;}
+</style>
+</head>
 ## Introduction:
 I set up an Apache web server on Kali Linux VM to host a 'Hello World' website. Then, I
 accessed the website from another Kali Linux VM and sniffed the network traffic and analyzed it using Wireshark.
 #### Task 1:
 Apache Web Server Set up on Kali Linux VM (Kali 2) and HTML Web Page Creation:
 I installed the Apache Web Server on “Kali 2” using the command: <br>
-<div text-align: center;>					***apt install apache2*** </div><br>
+<div>apt install apache2</div><br>
 						
 ![image](https://github.com/user-attachments/assets/804fdf7b-1e25-4d2a-ab37-2aa833f4a088)
 
