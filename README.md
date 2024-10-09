@@ -1,9 +1,9 @@
-### Introduction:
+## Introduction:
 I set up an Apache web server on Kali Linux VM to host a 'Hello World' website. Then, I
 accessed the website from another Kali Linux VM and sniffed the network traffic and analyzed it using Wireshark.
 #### Task 1:
 Apache Web Server Set up on Kali Linux VM (Kali 2) and HTML Web Page Creation:
-I installed the Apache Web Server on “Kali 2” using the command:
+I installed the Apache Web Server on “Kali 2” using the command: <br>
 						***apt install apache2***
 						
 ![[Pasted image 20241009235442.png]]
@@ -11,9 +11,9 @@ I installed the Apache Web Server on “Kali 2” using the command:
 The Apache service was already installed so the output is as shown in the previous screen capture.
 
 ![[Pasted image 20241009235523.png]]
-I then started the Apache Web service using the command:
+I then started the Apache Web service using the command: <br>
 						***service apache2 start***
-and using the command:
+and using the command: <br>
 						***service apache2 status***
 						
 we can notice that the service is up and running.
