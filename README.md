@@ -4,13 +4,13 @@ accessed the website from another Kali Linux VM and sniffed the network traffic 
 #### Task 1:
 Apache Web Server Set up on Kali Linux VM (Kali 2) and HTML Web Page Creation:
 I installed the Apache Web Server on “Kali 2” using the command: <br>
-						***apt install apache2***
+&emsp; &emsp;					***apt install apache2*** <br>
 						
-![[Pasted image 20241009235442.png]]
+![image](https://github.com/user-attachments/assets/804fdf7b-1e25-4d2a-ab37-2aa833f4a088)
 
 The Apache service was already installed so the output is as shown in the previous screen capture.
 
-![[Pasted image 20241009235523.png]]
+
 I then started the Apache Web service using the command: <br>
 						***service apache2 start***
 and using the command: <br>
