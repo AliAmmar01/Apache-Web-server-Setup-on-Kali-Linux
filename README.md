@@ -1,6 +1,6 @@
-## Introduction:
+### Introduction:
 I set up an Apache web server on Kali Linux VM to host a 'Hello World' website. Then, I accessed the website from another Kali Linux VM and sniffed the network traffic and analyzed it using Wireshark.
-#### Task 1:
+### Part 1:
 ##### Apache Web Server Set up on Kali Linux VM (Kali 2) and HTML Web Page Creation: <br>
 I installed the Apache Web Server on “Kali 2” using the command: <br>
 						***apt install apache2***<br>
@@ -29,7 +29,7 @@ And running the following command to test if it’s correctly working: <br>
 
 And yes, it is working.
 
-#### Task 2:
+### Part 2:
 ##### Accessing the Website from Kali Linux VM (kali linux 1): <br>
 Given that both machines are on the same network, we can access the webpage using the IP address of the VM on which the web service is running (Kali 2).
 First, let’s find the IP address of the Kali Linux VM (Kali 2) on which the webpage is hosted.
@@ -44,7 +44,7 @@ I then accessed the “helloworld.html” webpage from the other Kali Linux VM (
 
 ![image](https://github.com/user-attachments/assets/658d3f24-2fd6-45e4-ac78-5f1bec85f516)
 
-#### Task 3:
+### Part 3:
 ##### Capturing Network Traffic using Wireshark and Analyzing HTTP Protocol:
 Simultaneously, I ran Wireshark on the VM through which I was making the request for the “helloworld.html” webpage.
 
@@ -84,5 +84,5 @@ Moving onto the HTTP Response to the prior GET Request:
 <li>The Content-Length field indicates the size of the payload (body) in octets/bytes being sent to the client, 21 is its value in our case.
 <li>The Connection field indicates the desired connection behavior between the client and the server, in the case of keep-alive, the connection should be kept open for multiple requests.
 <li>The Content-Type field indicates the type of data or media contained in the response body, in this case, text/html.
-<li>And finally, the response body: <h1>Hello World</h1> which is then rendered in the browser.
+<li>And finally, the response body: <!--<h1>Hello World</h1>--> which is then rendered in the browser.
 </ul>
