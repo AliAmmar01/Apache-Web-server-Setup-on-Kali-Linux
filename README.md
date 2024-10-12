@@ -14,10 +14,10 @@ The Apache service was already installed so the output is as shown in the previo
 
 I then started the Apache Web service using the command: <br>
 						***service apache2 start*** <br>
-and using the command: <br>
+<br>and using the command: <br>
 						***service apache2 status*** <br>
 						
-we can notice that the service is up and running. <br>
+<br>we can notice that the service is up and running. <br>
 I then created a new .html file in the /var/www/html directory and named it “helloworld.html”.
 
 ![image](https://github.com/user-attachments/assets/3bbe2f5d-e4fd-4d5f-9070-f2b3c496af36)
