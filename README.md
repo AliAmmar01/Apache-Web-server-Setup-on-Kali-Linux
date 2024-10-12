@@ -84,5 +84,5 @@ Moving onto the HTTP Response to the prior GET Request:
 <li>The Content-Length field indicates the size of the payload (body) in octets/bytes being sent to the client, 21 is its value in our case.
 <li>The Connection field indicates the desired connection behavior between the client and the server, in the case of keep-alive, the connection should be kept open for multiple requests.
 <li>The Content-Type field indicates the type of data or media contained in the response body, in this case, text/html.
-<li>And finally, the response body: <b>Hello World</b> which is then rendered in the browser.
+<li>And finally, the response body: "<h1>Hello World</h1>" which is then rendered in the browser.
 </ul>
